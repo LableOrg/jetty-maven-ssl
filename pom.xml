@@ -60,11 +60,8 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.31.v20200723</version>
                 <configuration>
-                    <stopKey>C</stopKey>
-                    <stopPort>34343</stopPort>
-                    <httpConnector>
-                        <port>8080</port>
-                    </httpConnector>
+                  <stopKey>C</stopKey>
+                  <jettyXml>src/main/config/jetty.xml,src/main/config/jetty-ssl.xml,src/main/config/jetty-https.xml</jettyXml>
                 </configuration>
             </plugin>
             <plugin>
