@@ -61,7 +61,7 @@
                 <version>9.4.31.v20200723</version>
                 <configuration>
                   <stopKey>C</stopKey>
-                  <jettyXml>src/main/config/jetty.xml,src/main/config/jetty-ssl.xml,src/main/config/jetty-https.xml</jettyXml>
+                  <jettyXml>src/main/config/jetty.xml,src/main/config/jetty-ssl.xml,src/main/config/jetty-ssl-context.xml,src/main/config/jetty-https.xml</jettyXml>
                 </configuration>
             </plugin>
             <plugin>
